@@ -64,12 +64,12 @@
         /* PRINT */
         @page {
             size: A4;
-            margin: 8mm;
+            margin: 12mm;
         }
 
         /* SPACING TOKENS */
         :root {
-            --sp-0: 0.4vw;
+            --sp-0: 0.6vw;
             --sc-1: 1.2vw;
             --sp-2: 2vw;
             --sp-3: 3.2vw;
@@ -89,15 +89,15 @@
             }
 
             h2 {
-                font-size: var(--sc-1) !important;
+                font-size: calc(var(--sc-1)* 1.44) !important;
                 font-weight: 600 !important;
-                line-height: var(--sp-2) !important;
+                line-height: calc(var(--sp-2)*1.44) !important;
             }
 
             h3 {
-                font-size: calc(var(--sc-1)* 0.72) !important;
+                font-size: calc(var(--sc-1)*1.08) !important;
                 font-weight: 560 !important;
-                line-height: var(--sc-1) !important;
+                line-height: calc(var(--sc-1)*1.44) !important;
                 color: #A1A1A1;
             }
 
@@ -107,11 +107,10 @@
             }
 
             p {
-                font-size: var(--sc-1) !important;
+                font-size: calc(var(--sc-1)*1.44) !important;
                 font-weight: 400 !important;
-                line-height: calc(var(--sp-2) * 1.08) !important;
+                line-height: calc(var(--sp-2) * 1.44) !important;
             }
-			
             a {
                 font-size: inherit;
                 font-weight: inherit;
@@ -265,12 +264,13 @@
 
     <div id="page">
         <!-- TITLE -->
-        <header>
+		<header>
             <h1>Shyen Wee.</h1>
         </header>
         <!-- RAIL | CONTACT -->
-        <div id="railContact" class="grid-12">
-            <h2 class="email">+61 401453452</h2>
+
+		<div id="railContact" class="grid-12">
+			<h2 class="email"><a href="tel:61401453452">+61 401453452</a></h2>
 			<h2><a href="mailto:shyen.wee@gmail.com">shyen.wee@gmail.com</a></h2>
             <div class="social">
 				<h2><a href="https://github.com/fractalfeeling">github.com/fractalfeeling</a></h2>
@@ -308,19 +308,19 @@
                 </div>
                 <div class="fragment">
                     <h2>Management Systems</h2>
-                    <p>Administration of Nationbuilder CRM/CMS and Moodle LMS</p>
+                    <p>Nationbuilder CRM/CMS, Moodle LMS</p>
                 </div>
                 <div class="fragment">
                     <h2>Design</h2>
-                    <p>Proficient with Adobe Creative Suite</p>
+                    <p>Adobe Creative Suite</p>
                 </div>
                 <div class="fragment">
                     <h2>e-Commerce</h2>
-                    <p>Build Shopify and Wordpress webstores</p>
+                    <p>Shopify and Wordpress webstores</p>
                 </div>
                 <div class="fragment">
                     <h2>Marketing</h2>
-                    <p>Expertise in Facebook Ad Manager and email campaigns</p>
+                    <p>Facebook Ad Manager and email campaigns</p>
                 </div>
             </div>
         </section>
@@ -338,7 +338,7 @@
                     <h3>Feb 2018–Jun 2019 / Kent Town, SA</h3>
                     <p>→ Analyse data from Facebook, Twitter and Nationbuilder providing insights to PR Director and Media Advisor for continuous improvement of social media content and delivery</p>
                     <p>→ Optimise Facebook Ads using Lookalike Audiences and Customer Lifetime Value—achieving Facebook page follower growth of ~28% over 3 months</p>
-                    <p>→ Manage email campaigns—including weekly newsletter with donation appeal to ~80,00 people—achieving consistent open rate of 24-30% and bounce rate of &lt;1% through email deliverability best practices, A/B testing and data validation on forms</p>
+                    <p>→ Manage email campaigns—including weekly newsletter with donation appeal to ~80,000 people—achieving consistent open rate of 24-30% and bounce rate of &lt;1% through email deliverability best practices, A/B testing and data validation on forms</p>
                     <p>→ Deliver election campaign material nationwide through SMS/MMS—over 1 million messages sent—with automated replies based on trigger keywords</p>
                     <p>→ Produce digital content consistent with brand and style guides and print collateral for election and fundraising campaigns compliant with AEC guidelines</p>
                     <p>→ Prepare financial reports of political donations and merchandise sales
@@ -346,8 +346,8 @@
                 <div class="segment">
                     <h2>IT & Technical Support Officer – Australian Institute of Technology Transfer</h2>
                     <h3>Apr 2011–Sep 2017 / Elizabeth, SA</h3>
-                    <p>→ Research and implement IT systems to increase productivity—implementations include a local file server, student learning management system and digitisation of paper based processes</p>
-                    <p>→ Set up and manage Moodle LMS</p>
+                    <p>→ Research and implement IT systems to increase productivity—implementations include setting up a local file server, router with security firmware for local WiFi management and digitisation of paper based feedback form system</p>
+                    <p>→ Set up and manage Moodle student learning management system</p>
                     <p>→ Create documentation and train staff on Moodle LMS</p>
                     <p>→ Manage enrolments and generate qualification certificates on VETtrak student management system</p>
                     <p>→ Prepare reports from VETtrak data, compliant with AVETMISS reporting requirements</p>
